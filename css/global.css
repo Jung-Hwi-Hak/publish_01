@@ -1,0 +1,123 @@
+a{
+    text-decoration: none;
+}
+/* font family */
+header > div nav ul li a,
+header > div > ul li p,
+footer > div *,
+#about figcaption p,
+section.videoArea h2,
+section.expArea ul{
+    font-family: 'Roboto';
+}
+header > div > ul li h2,
+#about figcaption h2,
+section.expArea > *:not(ul){
+    font-family: 'Playfair Display';
+}
+/* btn_more */
+.btn_more{
+    font-family: 'Hammersmith One'; font-weight: 400; text-align: center; display: block;
+    font-size: 16px; border: 1px solid #00e0d0; color: #00e0d0;
+    line-height: 38px;
+    box-sizing: border-box;
+}
+@media screen and (min-width: 1280px){
+    header{
+        padding: 15px 0 70px;
+        margin-bottom: 70px;
+        background: url('../images/bg_01.png') left top / cover no-repeat;
+    }
+    header > div,
+    #about,
+    .expArea{
+        max-width: 940px;
+        margin: 0 auto;
+        position: relative;
+    }
+    header > div h1{
+        max-width: 128px;
+    }
+    header > div h1 a{
+        display: block;
+    }
+    header > div h1 a img{
+        width: 100%;
+    }
+    header > div nav{
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: 100%;
+        padding-left: 130px;
+        box-sizing: border-box;
+        text-align: right;
+    }
+    header > div nav ul li{
+        display: inline-block;
+        line-height: 50px;
+    }
+    header > div nav ul li:not(:first-of-type){
+        margin-left: 2.65%;
+    }
+    header > div nav ul li a{
+        color: #fff;
+        display: block;
+        font-size: 13px;
+        font-weight: 700;
+    }
+    header > div nav ul li a.active,
+    header > div nav ul li a:hover{
+        color: #00e0d0;
+    }
+    header > div > ul{
+
+    }
+    header > div > ul li{
+        padding-top: 165px;
+        display: block;
+        text-align: center;
+        color: #fff;
+    }
+    header > div > ul li h2{
+        font-size: 32px;
+        font-weight: 900;
+        padding-bottom: 22px;
+        background: url('../images/border.png') bottom center no-repeat;
+        margin-bottom: 30px;
+    }
+    header > div > ul li p{
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 24px;
+        max-width: 770px;
+        text-align: center;
+        /* padding: 0px 9.25%; */
+        margin: 0 auto 50px;
+    }
+    header > div > ul li a.btn_more{
+        max-width: 120px;
+        margin: 0 auto 127px;
+    }
+    header > div > ol{
+        text-align: center;
+    }
+    header > div > ol li{
+        display: inline-block;
+    }
+    header > div > ol li a{
+        display: block;
+        width: 10px;
+        height: 10px;
+        border-radius: 5px;
+        border: 1px solid #bab9bc;
+        background-color: transparent;
+        text-indent: -9999px;
+    }
+    header > div > ol li a.active,
+    header > div > ol li a:hover{
+        border: 1px solid #00e0d0;
+        background-color: #00e0d0;
+    }
+    /* ================= Header Fin !!!! =================*/
+}

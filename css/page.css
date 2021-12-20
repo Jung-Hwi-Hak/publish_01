@@ -1,0 +1,144 @@
+
+
+@media screen and (min-width: 1280px){
+    #about{
+        padding-left: 7%;
+    }
+    #about:after{
+        content: "";
+        clear: both;
+        display: block;
+    }
+    #about img{
+        float: left;
+        width: 25%;
+        max-width: 235px;
+    }
+    #about figcaption{
+        float: left;
+        width: 65%;
+        margin-left: 10%;
+    }
+    #about figcaption > *:not(a){
+        margin-bottom: 30px;
+    }
+    #about figcaption h2{
+        font-size: 22px;
+        font-weight: 700;
+    }
+    #about figcaption p{
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 22px;
+    }
+    #about figcaption a.btn_more{
+        max-width: 120px;
+        line-height: 38px;
+    }
+    /* ============ #about figure Fin !!!! ============*/
+    .videoArea{
+        padding: 200px 0;
+        background: url('../images/bg_03.png') left top / cover no-repeat;
+    }
+    .videoArea a{
+        margin: 0 auto 35px;
+        text-align: center;
+        display: block;
+        width: 100px;
+        height: 100px;
+        border-radius: 55px;
+        color: #fff;
+        border: 3px solid #fff;
+        line-height: 90px;
+        font-size: 45px;
+    }
+    .videoArea h2{
+        text-align: center;
+        color: #fff;
+        font-size: 16px;
+        font-weight: 900;
+    }
+    /* ============= videoArea Fin !!!! ============= */
+    .expArea{
+        padding: 70px 0;
+    }
+    .expArea *{
+        text-align: center;
+    }
+    .expArea > h2{
+        margin-bottom: 16px;
+        font-size: 22px;
+        font-weight: 700;
+    }
+    .expArea > p{
+        padding-bottom: 18px;
+        font-size: 14px;
+        font-weight: 700;
+        /* image use */
+        /* background: url('../images/border.png') bottom center no-repeat; */
+    }
+    .expArea > hr{
+        display: block;
+        width: 50px;
+        height: 2px;
+        margin: 0 auto 48px;
+    }
+    .expArea ul{
+        list-style: none;
+    }
+    .expArea ul:after{
+        display: block;
+        content: "";
+        clear: both;
+    }
+    .expArea ul li{
+        float: left;
+        width: 33.33%;
+        height: 250px;
+        box-sizing: border-box;
+        padding: 36px 0 40px;
+    }
+    .expArea ul li::before{
+        display: block;
+        content:"";
+        width: 100%;
+        height: 85px;
+    }
+    .expArea ul li:nth-of-type(1)::before{
+        background: url('../images/ico_01.png') center top no-repeat;
+    }
+    .expArea ul li:nth-of-type(2)::before{
+        background: url('../images/ico_02.png') center top no-repeat;
+    }
+    .expArea ul li:nth-of-type(3)::before{
+        background: url('../images/ico_03.png') center top no-repeat;
+    }
+    .expArea ul li:nth-of-type(4)::before{
+        background: url('../images/ico_04.png') center top no-repeat;
+    }
+    .expArea ul li:nth-of-type(5)::before{
+        background: url('../images/ico_05.png') center top no-repeat;
+    }
+    .expArea ul li:nth-of-type(6)::before{
+        background: url('../images/ico_06.png') center top no-repeat;
+    }
+    .expArea ul li:not(:nth-of-type(3n)){
+        border-right: 1px solid rgb(235,235,235);
+    }
+    .expArea ul li:nth-of-type(n+4){
+        border-top: 1px solid rgb(235,235,235);
+    }
+    .expArea ul li h3{
+        font-size: 14px;
+        font-weight: 900;
+        margin-bottom: 25px;
+    }
+    .expArea ul li p{
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 22px;
+        color: rgba(0,0,0,0.75);
+        max-width: 254px;
+        margin: 0 auto;
+    }
+}
